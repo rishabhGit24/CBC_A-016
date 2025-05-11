@@ -1,0 +1,326 @@
+.voice-chat-container {
+  background: var(--surface);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  margin: -1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  max-width: 80%;
+  animation: messageSlide 0.3s ease-out;
+  position: relative;
+}
+
+.message.user {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.message.assistant {
+  background: var(--background);
+  color: var(--text-primary);
+  align-self: flex-start;
+  border-bottom-left-radius: 0.25rem;
+  transition: background 0.3s ease;
+}
+
+.sentiment-indicator {
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--surface);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.message:hover .sentiment-indicator {
+  opacity: 1;
+}
+
+.controls {
+  margin-top: -2em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  position: relative;
+}
+
+.record-button {
+  width: 25rem;
+  height: 25rem;
+  margin-top: -10em;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.record-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px -1px rgba(0, 0, 0, 0.2);
+}
+
+.record-button:active {
+  transform: scale(0.95);
+}
+
+.record-button.recording {
+  background: var(--error);
+  animation: pulse 1.5s infinite;
+}
+
+.record-button.recording::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.2);
+  animation: ripple 1.5s infinite;
+  z-index: -1;
+}
+
+.record-button.recording::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.1);
+  animation: ripple 1.5s infinite 0.5s;
+  z-index: -1;
+}
+
+.record-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  animation: none;
+}
+
+.record-button svg {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.record-button.recording svg {
+  animation: pulse-icon 1.5s infinite;
+}
+
+.processing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  background: var(--background);
+  border-radius: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.processing-indicator::before {
+  content: '';
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--primary-color);
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.error-message {
+  background: #FEE2E2;
+  color: var(--error);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Sentiment-based message styles */
+.message.assistant[data-sentiment="positive"] {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  color: white;
+}
+
+.message.assistant[data-sentiment="negative"] {
+  background: linear-gradient(135deg, #f44336, #e57373);
+  color: white;
+}
+
+.message.assistant[data-sentiment="neutral"] {
+  background: linear-gradient(135deg, #9E9E9E, #BDBDBD);
+  color: white;
+}
+
+@keyframes messageSlide {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(124, 58, 237, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-icon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .voice-chat-container {
+    padding: 1rem;
+  }
+  
+  .message {
+    max-width: 90%;
+  }
+  
+  .record-button {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .record-button svg {
+    font-size: 1.25rem;
+  }
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mode-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  background: white;
+  color: #3498db;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mode-button:hover {
+  background: #f7f9fc;
+}
+
+.mode-button.active {
+  background: #3498db;
+  color: white;
+}
+
+.mode-button svg {
+  font-size: 1.2rem;
+}
+
+/* Center the mic button at the bottom of the chat area */
+.mic-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute; /* or fixed if you want it always visible */
+  bottom: 24px; /* adjust as needed */
+  left: 0;
+  z-index: 10;
+}
+
+/* Style the mic button itself */
+.mic-button {
+  background: linear-gradient(135deg, #7c3aed 0%, #6366f1 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem; /* Increase icon size */
+  box-shadow: 0 4px 16px rgba(99,102,241,0.18);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.mic-button:hover {
+  background: linear-gradient(135deg, #6366f1 0%, #7c3aed 100%);
+  transform: scale(1.08);
+} 

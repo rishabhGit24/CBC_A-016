@@ -1,0 +1,2579 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
+  color: #fff;
+}
+.landing-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.landing-buttons button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 24px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.landing-buttons button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.user-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-button,
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #6366f1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 1rem;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.logout-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.lnd-btn {
+  color: black;
+  height: 20em;
+  background-color: white;
+  margin-bottom: 10em;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lnd-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+  cursor: pointer;
+}

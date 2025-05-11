@@ -1,0 +1,340 @@
+body,
+html {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
+  font-family: "Inter", "Roboto", Arial, sans-serif;
+}
+
+.creative-mode-container {
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(60, 80, 180, 0.1), 0 1.5px 4px rgba(0, 0, 0, 0.04);
+  position: relative;
+  z-index: 2;
+  transition: box-shadow 0.3s;
+}
+
+.creative-mode-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.creative-mode-header img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.creative-mode-header h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.input-section {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 700;
+  color: #34495e;
+  margin-bottom: 0.2rem;
+}
+
+.form-group input {
+  padding: 0.85rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  background: #f4f7fb;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6366f1;
+  background: #fff;
+}
+
+.generate-button {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  color: white;
+  border: none;
+  padding: 1.1rem 2.5rem;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+}
+
+.generate-button:hover {
+  background: linear-gradient(90deg, #4f46e5 0%, #2563eb 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.generate-button:disabled {
+  background: #c7d2fe;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.roadmap-visualization {
+  background: #f1f5f9;
+  border-radius: 18px;
+  padding: 32px 24px 24px 24px;
+  margin-top: 36px;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.07);
+}
+
+.visualization-tabs {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #e0e7ef;
+  padding-bottom: 8px;
+}
+
+.tab-button {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  background: #e0e7ff;
+  color: #3730a3;
+  font-weight: 700;
+  font-size: 1.08rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-button:hover {
+  background: #c7d2fe;
+  color: #1e40af;
+}
+
+.tab-button.active {
+  background: #6366f1;
+  color: white;
+  border-bottom: 2px solid #6366f1;
+  z-index: 2;
+}
+
+.tab-button svg {
+  font-size: 1.25em;
+}
+
+.tab-content {
+  background: white;
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.04);
+  animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.chart-container {
+  width: 45em;
+  height: 540px;
+  padding: 32px 24px 24px 24px;
+  background: linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.1);
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive improvements */
+@media (max-width: 1100px) {
+  .creative-mode-container {
+    max-width: 98vw;
+    padding: 1.2rem;
+  }
+  .chart-container {
+    height: 400px;
+    padding: 16px 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .creative-mode-container {
+    padding: 0.5rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .roadmap-visualization {
+    padding: 10px 2px;
+    border-radius: 10px;
+  }
+  .tab-content {
+    padding: 10px 2px;
+    border-radius: 10px;
+  }
+  .chart-container {
+    height: 260px;
+    padding: 4px 2px;
+    border-radius: 10px;
+  }
+}
+
+/* Study Plan Styles */
+.study-plan {
+  display: grid;
+  gap: 2rem;
+}
+
+.timeline-section,
+.recommendations-section,
+.dependencies-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-section h3,
+.recommendations-section h3,
+.dependencies-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+.timeline-date {
+  font-weight: 600;
+  color: #3498db;
+}
+
+.timeline-content h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.resource-tag {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+}
+
+.recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.recommendation-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.recommendation-card h4 {
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.recommendation-card ul {
+  margin-top: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.recommendation-card li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.dependencies-graph {
+  display: grid;
+  gap: 1rem;
+}
+
+.dependency-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.module {
+  font-weight: 600;
+  color: #2c3e50;
+  min-width: 150px;
+}
+
+.depends-on {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.dependency-tag {
+  background: #fff3e0;
+  color: #f57c00;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+}
